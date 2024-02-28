@@ -36,6 +36,6 @@ export default function SinglePlayer() {
           {player.name}
         </h2>
         <h3>{player.breed}</h3>
-        <button onClick={() => deleteHandler(id)}>DELETE!</button>
+        <button onClick={() => deleteHandler(id)}>Delete player</button>
       </article>
 }
